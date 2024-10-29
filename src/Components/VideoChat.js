@@ -1,10 +1,10 @@
 import './video.css';
 
 
-const Video_Chat = () => {
+const VideoChat = () => {
  return (
    <div>Comming Soon.....</div>
  )
 }
 
-export default Video_Chat;
+export default VideoChat;
