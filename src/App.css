@@ -1,0 +1,156 @@
+/* Text.js */
+
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1em;
+}
+
+.status-message {
+  font-weight: bold;
+  margin: 10px 0;
+  color: #555;
+}
+
+.messages {
+  background-color: #ffffff; 
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #888888;
+  padding: 20px;
+  width: 100%;
+  max-width: 45em;
+  height: 60vh;
+  overflow-y: auto;
+  margin-top: 1em;
+}
+
+.message {
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+  max-width: 80%;
+  color: white;
+}
+
+.message.right {
+  background: linear-gradient(135deg, #000000, #adaeb4);
+  align-self: flex-end;
+  text-align: right;
+  
+}
+
+.message.left {
+  background: linear-gradient(135deg, #000000, #adaeb4);
+  align-self: flex-start;
+  text-align: left;
+}
+
+.send {
+  margin-top: 1em;
+  width: 100%;
+  max-width: 45em;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.new-chat, .send-button {
+  background: linear-gradient(135deg, #000000, #adaeb4);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px #888888;
+  transition: all 0.3s ease;
+  font-size: 1em;
+}
+
+.new-chat:hover, .send-button:hover {
+  box-shadow: 0px 0px 25px #888888;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 10px;
+  background: linear-gradient(135deg, #000000, #adaeb4);
+  color: white;
+  box-shadow: 0px 0px 15px #888888;
+  font-size: 1em;
+}
+
+.message-input::placeholder {
+  color: #a1a1a1;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .messages, .send {
+      width: 90%;
+  }
+
+  .message {
+      padding: 8px 10px;
+      font-size: 0.9em;
+  }
+
+  .new-chat, .send-button {
+      padding: 8px 10px;
+      font-size: 0.9em;
+  }
+
+  .message-input {
+      padding: 8px;
+      font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .messages {
+      padding: 15px;
+      height: 70vh;
+      width: 45vh
+  }
+
+  .status-message {
+      font-size: 0.9em;
+  }
+
+  .new-chat {
+    
+}
+.send-button{
+    
+    
+}
+
+.message-input {
+    
+}
+
+
+
+
+}
+
+
+
+  /* Video_Chat.js */
+
+  
